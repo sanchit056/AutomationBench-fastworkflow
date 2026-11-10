@@ -58,6 +58,12 @@ Thumbs.db
 .env
 .env.local
 
+# FastWorkflow integration: API keys and generated training/run artifacts
+fastworkflow_integration/fastworkflow.passwords.env
+fastworkflow_integration/**/___command_info/
+fastworkflow_integration/**/___convo_info/
+fastworkflow_integration/**/___workflow_contexts/
+
 # Logs
 *.log
 
